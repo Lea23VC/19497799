@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style>
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
+body {
+	
+	background-image: url("background.png");
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+
+.datos_ramo table {  
+
+	background-color: #f2f2f2;
+	color: black;
+	width: 10%;
+}
+
+.datos_ramo th {  
+	background-color: #f2f2f2;
+	color: black;
+}
+
+
+.parrafo p {
+  border-left: 6px solid red;
+  background-color: lightgrey;
+}
+
+
+
+</style>
+</head>
+
+</body>
+</html>
