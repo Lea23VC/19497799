@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style>
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
+body {
+	
+	background-image: url("background.png");
+}
+
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+td:nth-child(even) {background-color: #f2f2f2;}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #0000FF	;
+  color: white;
+}
+
+td {
+	background-color: #FFFFFF;
+}
+
+
+
+
+
+
+</style>
+</head>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
