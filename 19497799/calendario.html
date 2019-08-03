@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <script type="text/javascript" src="calendario.js"></script>
+	<!-- TODO Agregar estilo para tabla -->
+	<style>
+	 table, th, td {
+	     border: 1px solid black;
+	     vertical-align: middle;
+	     text-align: center;
+	     padding: 1.5em;
+	 }
+	</style>
+    </head>
+    <body>
+        <div>
+            <select name="selectedMonth" onchange="renderSelectedMonth(this.value);">
+		<option selected disabled>Seleccione Mes</option>
+		<option value="0">Enero</option>
+		<option value="1">Febrero</option>
+		<option value="2">Marzo</option>
+		<option value="3">Abril</option>
+		<option value="4">Mayo</option>
+		<option value="5">Junio</option>
+		<option value="6">Julio</option>
+		<option value="7">Agosto</option>
+		<option value="8">Septiembre</option>
+		<option value="9">Octubre</option>
+		<option value="10">Noviembre</option>
+		<option value="11">Diciembre</option>
+            </select>
+        </div>
+        <div id="currentMonth">
+        </div>
+
+	<!-- A partir de aquí puede agregar contenido para la funcionalidad de borrar eventos -->
+    </body>
+</html>
